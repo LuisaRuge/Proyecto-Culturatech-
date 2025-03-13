@@ -196,3 +196,60 @@ p{
     padding: 8px 15px;
 }
 
+/*general footer*/
+.footer {
+    background-color: #050505;
+    color: white;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+/*formulario footer*/
+.parent-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+}
+    
+.form {
+    grid-row: span 3 / span 3;
+}
+
+/*iconos redes zoom*/
+.redes a {
+    transition: 0.5s ease-in-out 0s;
+  }
+  
+.redes a:hover {
+   transform: scale(1.8);
+    
+  }
+
+/*Contacto direccion y telefono*/
+.contacto {
+    grid-column-start: 2;
+    width: 80%;
+    margin: 20px auto;
+
+/*logo footer*/
+}
+.logo-footer {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+/*iconos redes*/
+.redes {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+/*copyright y diseñado por*/
+.copyright {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+    
+}
