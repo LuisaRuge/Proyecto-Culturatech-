@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration-line:none;
+    color: white;
+    font-style: normal;
+
+}
+
+header{
+  display: flex;  
+  min-height: 70px;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo{
+   display: flex; 
+   align-items: center;
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 40px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    font-size: light;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    list-style: none;
+    font-style: normal;
+}
+
+nav a:hover{
+    color: #FEEA12;
+}
+
+@media (max-width:768px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: auto;
+    }
+}
+
+.container{
+    display: flex;
+    background: linear-gradient(to right, #F16F7B, #8B4047);
+    margin: 0px;   
+}
+
+
+h1{
+    display: flex;
+    background-color: black;
+    transform: translate(-10%);
+    box-shadow: 0 0 20px rgb(0,0,0,20);
+    font-family: 'arial';
+    color: #FEEA12;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    margin: auto;
+    padding: 100px;
+    
+  
+}
+
+
+.text{
+    display: flex;
+    color:black;
+    justify-content: center;
+    background: linear-gradient(to right, #FEEA12, #72EF6E, #00F3B9);
+    align-content: center;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+}
+
+
+.container-card{
+    display: grid; 
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    place-items: center;
+    border: #3db84d;
+    box-shadow: 0px 5px 0px #feea12;
+    border-radius: 5px;
+    background-color: rgba(127, 255, 212, 0.253);
+    width: 50vh;
+    height: 40vh; 
+    margin: 8%;
+    
+}
+
+
+
+p{
+  font-size: 15px;
+  width: 70%;
+  font-family: Arial, sans-serif;
+}
+ /* imagen de nosotras*/
+ 
+.image-box{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: row;
+    align-items: flex-start;
+    position: absolute;
+    left: 60%;
+    top: 75%; 
+
+}
