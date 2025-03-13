@@ -1,8 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+
+}
+
 body{
     margin: 0;
     margin: 0;
 }
 
+/*Texto del menú y color */
 a{
     text-decoration-line:none;
     color: white;
@@ -11,55 +20,43 @@ a{
 }
 
 header{
-  display: flex;  
-  min-height: 70px;
-  background-color: black;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
+    display: flex;  
+    min-height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
-.logo{
-   display: flex; 
-   align-items: center;
-}
-
+/*Alineación y tamaño logotipo en el header*/
 .logo img{
+    display: flex; 
+    align-items: center;
     height: 70px;
     margin-right: 40px;
 }
 
-nav a{
-    font-weight: 600;
-    padding-right: 10px;
-    font-size: light;
-    font-family: Arial, sans-serif;
-    font-weight: 100;
-    list-style: none;
-    font-style: normal;
+/*Estilo del menú*/
+.navegation ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    color: white;
 }
 
-nav a:hover{
+/*Efecto pasar mouse por el menú*/
+.navegation a:hover{
     color: #FEEA12;
 }
 
-@media (max-width:768px){
-    header{
-        flex-direction: column;
-    }
-
-    nav{
-        padding: auto;
-    }
-}
-
-.container{
+/*Estilo fondo de la cabecera*/
+.container-degrade{
     display: flex;
     background: linear-gradient(to right, #F16F7B, #8B4047);
     margin: 0px;   
 }
 
-
+/*Estilo caja texto negro en la cabecera*/
 h1{
     display: flex;
     background-color: black;
@@ -73,10 +70,10 @@ h1{
     margin: auto;
     padding: 100px;
     
-  
+    
 }
 
-
+/*Estilo caja sección Somos Cultura Tecnológica*/
 .text{
     display: flex;
     color:black;
@@ -89,7 +86,7 @@ h1{
 
 }
 
-
+/*Inicio sección nosotras*/
 .container-card{
     display: grid; 
     font-size: 20px;
@@ -105,16 +102,14 @@ h1{
     
 }
 
-
-
 p{
-  font-size: 15px;
-  width: 70%;
-  font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 70%;
+    font-family: Arial, sans-serif;
 }
- /* imagen de nosotras*/
- 
-.image-box{
+
+    /* imagen de nosotras*/
+    .image-box{
     width: 350px;
     height: 400px;
     display: flex;
@@ -125,3 +120,79 @@ p{
     top: 75%; 
 
 }
+
+/*Inicio sección Talleres */
+
+.talleres-section {
+    background-color: #FEEA12; /* Color amarillo */
+    padding: 20px; /* Espaciado interno */
+    font-weight: normal; /* Texto en negrita */
+    font-size: 18px; /* Tamaño del título */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    
+}
+
+.talleres-section p {
+    font-family: arial; /* Texto normal para el párrafo */
+    font-size: 15px; /* Tamaño del párrafo */
+    margin: 0; /* Elimina margen extra */
+
+    
+}
+
+.section.container{
+    height: 150px;
+    display:inline-flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #00F3B9;
+    padding: 5px;
+    margin: 5px;
+}
+
+.container-fluid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    
+}
+.workshop-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    width: 100%;
+    padding: 5% 5%;
+}
+.workshop-container img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+.workshop-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #72EF6E;
+    overflow: visible;
+    box-shadow: 0px 5px 0px #feea12;
+    flex: 1;
+    max-width:40%;
+    text-align: center;
+}
+.workshop-card h5 {
+    font-size: 1.5rem;
+}
+.workshop-card p {
+    font-size: 1rem;
+}
+.workshop-card .btn {
+    font-size: 1rem;
+    padding: 8px 15px;
+}
+
