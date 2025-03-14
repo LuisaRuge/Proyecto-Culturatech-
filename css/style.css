@@ -297,7 +297,7 @@ p{
     background-position: bottom;
     width: 120px;       /* Ancho del botón */
     height: 120px;
-    transform: translateY(-75px);
+    transform: translateY(-15px);
 }
 
 /*general footer*/
