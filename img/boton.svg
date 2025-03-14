@@ -1,46 +1,33 @@
 <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
  <g>
   <title>Layer 1</title>
-  <path id="MyPath" d="m200,200m-100,0a100,100 0 1 1 200,0a100,100 0 1 1 -200,0" fill="none" stroke="#000" stroke-width="2" />
-  <text id="svg_1" xml:space="default" font-family="Verdana" font-size="30px" fill="#000">
-   <textPath startOffset="0" href="#MyPath">Donar</textPath>
-   <textPath startOffset="160" href="#MyPath">Donar</textPath>
-   <textPath startOffset="320" href="#MyPath">Donar</textPath>
-   <textPath startOffset="480" href="#MyPath">Donar</textPath>
+  <text fill="#000" font-size="30px" font-family="Verdana" xml:space="default" id="svg_1">
+   <textPath href="#MyPath" startOffset="0">Donar</textPath>
+   <textPath href="#MyPath" startOffset="260">Donar</textPath>
+   <textPath href="#MyPath" startOffset="530">Donar</textPath>
+   <textPath href="#MyPath" startOffset="800">Donar</textPath>
   </text>
-  <circle fill="none" stroke="#feea12" cx="200" cy="200" r="80" stroke-width="10" filter="blur(3px)" />
-  <circle id="circulo" fill="#feea12" stroke="#feea12" stroke-width="2px" cx="200" cy="200" r="78" />
-  <clipPath id="clip">
-   <use id="svg_3" href="#circulo"/>
-  </clipPath>
- </g>
-
- <g>
-  <title>Layer 2</title>
-<svg viewBox="-350 -375 1200 1200" xmlns="http://www.w3.org/2000/svg">
-<g id="Layer_1">
-  <title>Layer 1</title>
-  <g id="svg_19">
-   <path stroke="null" id="svg_12" d="m159.18481,197.38203l-48.60983,0l0,0c-26.84644,0 -48.61023,23.78514 -48.61023,53.12509c0,29.3401 21.76379,53.12544 48.61023,53.12544l48.60983,0l0,-106.25053z" stroke-width="0" fill="#00f2b8"/>
-   <path stroke="null" id="svg_11" d="m336.27148,198.3419l48.61102,0l0,0c26.84686,0 48.61118,23.16302 48.61118,51.73621c0,28.57304 -21.76431,51.73604 -48.61118,51.73604l-48.61102,0l0,-103.47224z" stroke-width="0" fill="#00f2b8"/>
-   <rect stroke="null" fill="#00f2b8" stroke-width="0" x="106.29365" y="112.15998" width="283.08336" height="240" id="svg_6" rx="20"/>
+  <path stroke="#000" stroke-width="2" id="MyPath" d="m198.86337,200m-169.36337,0a169.36334,169.36334 0 1 1 341,0a169.36334,169.36334 0 1 1 -341,0" fill="none"/>
+  <circle filter="blur(6px)" fill="#feea12" id="svg_2" stroke-width="10" r="150" cy="200" cx="200" stroke="#feea12"/>
+  <circle id="circulo" fill="#feea12" stroke="#feea12" stroke-width="2px" cx="200" cy="200" r="136"/>
+  <g stroke="null" id="svg_19">
+   <path stroke="null" id="svg_12" d="m139.81622,182.53001l-33.04019,0l0,0c-18.24757,0 -33.04049,16.16681 -33.04049,36.10922c0,19.94249 14.79292,36.10942 33.04049,36.10942l33.04019,0l0,-72.21864z" stroke-width="0" fill="#00f2b8"/>
+   <path stroke="null" id="svg_11" d="m260.18231,183.18242l33.04099,0l0,0c18.24789,0 33.04117,15.74396 33.04117,35.16516c0,19.42119 -14.79327,35.16512 -33.04117,35.16512l-33.04099,0l0,-70.33028l0,0z" stroke-width="0" fill="#00f2b8"/>
+   <rect stroke="null" fill="#00f2b8" stroke-width="0" x="103.86598" y="124.60442" width="192.41228" height="163.12844" id="svg_6" rx="20"/>
    <g stroke="null" id="svg_5">
-    <path stroke="#000" fill="#ffffff" stroke-width="0" d="m238.14198,175.54886l48.50008,0l0,0c26.7854,0 48.49994,26.03638 48.49994,58.15277c0,32.1167 -21.71454,58.15277 -48.49994,58.15277l-48.50008,0l0,-116.30554z" id="svg_3"/>
-    <path stroke="#000" fill="#ffffff" stroke-width="0" d="m256.142,175.54886l-47.00009,0l0,0c-25.95697,0 -46.99994,26.03638 -46.99994,58.15277c0,32.11673 21.04297,58.15277 46.99994,58.15277l47.00009,0l0,-116.30554z" id="svg_4"/>
+    <path stroke="#000" fill="#ffffff" stroke-width="0" d="m193.48355,167.68999l32.96558,0l0,0c18.20612,0 32.96548,17.69698 32.96548,39.52654c0,21.82976 -14.75937,39.52655 -32.96548,39.52655l-32.96558,0l0,-79.05307l0,-0.00002z" id="svg_3"/>
+    <path stroke="#000" fill="#ffffff" stroke-width="0" d="m205.71817,167.68999l-31.94601,0l0,0c-17.64307,0 -31.94595,17.69698 -31.94595,39.52654c0,21.82977 14.30289,39.52655 31.94595,39.52655l31.94601,0l0,-79.05307l0,-0.00002z" id="svg_4"/>
    </g>
-   <ellipse ry="20" rx="20" id="svg_2" cy="58.74332" cx="245.35823" stroke-width="0" stroke="null" fill="#00f2b8"/>
-   <ellipse ry="3" rx="3" id="svg_7" cy="80.46554" cx="256.35823" stroke-width="0" stroke="null" fill="#00f2b8"/>
-   <ellipse stroke="null" ry="2.54237" rx="3" id="svg_8" cy="90.19294" cx="256.83375" stroke-width="0" fill="#00f2b8"/>
-   <ellipse stroke="null" ry="2.54237" rx="3" id="svg_9" cy="99.91516" cx="256.13931" stroke-width="0" fill="#00f2b8"/>
-   <ellipse stroke="null" ry="2.54237" rx="3" id="svg_10" cy="109.63738" cx="254.75042" stroke-width="0" fill="#00f2b8"/>
-   <ellipse stroke="null" ry="37.18456" rx="21.90324" id="svg_13" cy="232.85987" cx="206.11742" stroke-width="0" fill="#262626"/>
-   <ellipse stroke="null" ry="37.69394" rx="21.90324" id="svg_15" cy="233.36925" cx="288.63658" stroke-width="0" fill="#262626"/>
-   <ellipse stroke="null" ry="11.12743" rx="6.66135" id="svg_16" cy="210.42755" cx="299.86096" stroke-width="0" fill="#fefefe"/>
-   <ellipse stroke="null" ry="11.12743" rx="6.66135" id="svg_17" cy="210.42755" cx="217.38" stroke-width="0" fill="#fefefe"/>
-   <!--<text stroke="null" transform="matrix(1.57661 0 0 0.987598 -24.8151 4.43942)" xml:space="preserve" text-anchor="start" id="svg_18" y="453.91228" x="31.56102" stroke-width="0" fill="#cccccc">CULTURATECH</text>-->
+   <ellipse stroke="null" ry="13.59403" rx="13.59403" id="svg_2" cy="88.29701" cx="198.38843" stroke-width="0" fill="#00f2b8"/>
+   <ellipse stroke="null" ry="2.03911" rx="2.03911" id="svg_7" cy="103.06165" cx="205.86515" stroke-width="0" fill="#00f2b8"/>
+   <ellipse stroke="null" ry="1.72806" rx="2.03911" id="svg_8" cy="109.67338" cx="206.18837" stroke-width="0" fill="#00f2b8"/>
+   <ellipse stroke="null" ry="1.72806" rx="2.03911" id="svg_9" cy="116.28159" cx="205.71635" stroke-width="0" fill="#00f2b8"/>
+   <ellipse stroke="null" ry="1.72806" rx="2.03911" id="svg_10" cy="122.88981" cx="204.77232" stroke-width="0" fill="#00f2b8"/>
+   <ellipse stroke="null" ry="25.27442" rx="14.88768" id="svg_13" cy="206.64435" cx="171.71639" stroke-width="0" fill="#262626"/>
+   <ellipse stroke="null" ry="25.62064" rx="14.88768" id="svg_15" cy="206.99058" cx="227.80482" stroke-width="0" fill="#262626"/>
+   <ellipse stroke="null" ry="7.56333" rx="4.52774" id="svg_16" cy="191.39707" cx="235.43404" stroke-width="0" fill="#fefefe"/>
+   <ellipse stroke="null" ry="7.56333" rx="4.52774" id="svg_17" cy="191.39707" cx="179.37159" stroke-width="0" fill="#fefefe"/>
   </g>
  </g>
 
-</svg>
- </g>
 </svg>
