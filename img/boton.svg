@@ -1,0 +1,46 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <path id="MyPath" d="m200,200m-100,0a100,100 0 1 1 200,0a100,100 0 1 1 -200,0" fill="none" stroke="#000" stroke-width="2" />
+  <text id="svg_1" xml:space="default" font-family="Verdana" font-size="30px" fill="#000">
+   <textPath startOffset="0" href="#MyPath">Donar</textPath>
+   <textPath startOffset="160" href="#MyPath">Donar</textPath>
+   <textPath startOffset="320" href="#MyPath">Donar</textPath>
+   <textPath startOffset="480" href="#MyPath">Donar</textPath>
+  </text>
+  <circle fill="none" stroke="#feea12" cx="200" cy="200" r="80" stroke-width="10" filter="blur(3px)" />
+  <circle id="circulo" fill="#feea12" stroke="#feea12" stroke-width="2px" cx="200" cy="200" r="78" />
+  <clipPath id="clip">
+   <use id="svg_3" href="#circulo"/>
+  </clipPath>
+ </g>
+
+ <g>
+  <title>Layer 2</title>
+<svg viewBox="-350 -375 1200 1200" xmlns="http://www.w3.org/2000/svg">
+<g id="Layer_1">
+  <title>Layer 1</title>
+  <g id="svg_19">
+   <path stroke="null" id="svg_12" d="m159.18481,197.38203l-48.60983,0l0,0c-26.84644,0 -48.61023,23.78514 -48.61023,53.12509c0,29.3401 21.76379,53.12544 48.61023,53.12544l48.60983,0l0,-106.25053z" stroke-width="0" fill="#00f2b8"/>
+   <path stroke="null" id="svg_11" d="m336.27148,198.3419l48.61102,0l0,0c26.84686,0 48.61118,23.16302 48.61118,51.73621c0,28.57304 -21.76431,51.73604 -48.61118,51.73604l-48.61102,0l0,-103.47224z" stroke-width="0" fill="#00f2b8"/>
+   <rect stroke="null" fill="#00f2b8" stroke-width="0" x="106.29365" y="112.15998" width="283.08336" height="240" id="svg_6" rx="20"/>
+   <g stroke="null" id="svg_5">
+    <path stroke="#000" fill="#ffffff" stroke-width="0" d="m238.14198,175.54886l48.50008,0l0,0c26.7854,0 48.49994,26.03638 48.49994,58.15277c0,32.1167 -21.71454,58.15277 -48.49994,58.15277l-48.50008,0l0,-116.30554z" id="svg_3"/>
+    <path stroke="#000" fill="#ffffff" stroke-width="0" d="m256.142,175.54886l-47.00009,0l0,0c-25.95697,0 -46.99994,26.03638 -46.99994,58.15277c0,32.11673 21.04297,58.15277 46.99994,58.15277l47.00009,0l0,-116.30554z" id="svg_4"/>
+   </g>
+   <ellipse ry="20" rx="20" id="svg_2" cy="58.74332" cx="245.35823" stroke-width="0" stroke="null" fill="#00f2b8"/>
+   <ellipse ry="3" rx="3" id="svg_7" cy="80.46554" cx="256.35823" stroke-width="0" stroke="null" fill="#00f2b8"/>
+   <ellipse stroke="null" ry="2.54237" rx="3" id="svg_8" cy="90.19294" cx="256.83375" stroke-width="0" fill="#00f2b8"/>
+   <ellipse stroke="null" ry="2.54237" rx="3" id="svg_9" cy="99.91516" cx="256.13931" stroke-width="0" fill="#00f2b8"/>
+   <ellipse stroke="null" ry="2.54237" rx="3" id="svg_10" cy="109.63738" cx="254.75042" stroke-width="0" fill="#00f2b8"/>
+   <ellipse stroke="null" ry="37.18456" rx="21.90324" id="svg_13" cy="232.85987" cx="206.11742" stroke-width="0" fill="#262626"/>
+   <ellipse stroke="null" ry="37.69394" rx="21.90324" id="svg_15" cy="233.36925" cx="288.63658" stroke-width="0" fill="#262626"/>
+   <ellipse stroke="null" ry="11.12743" rx="6.66135" id="svg_16" cy="210.42755" cx="299.86096" stroke-width="0" fill="#fefefe"/>
+   <ellipse stroke="null" ry="11.12743" rx="6.66135" id="svg_17" cy="210.42755" cx="217.38" stroke-width="0" fill="#fefefe"/>
+   <!--<text stroke="null" transform="matrix(1.57661 0 0 0.987598 -24.8151 4.43942)" xml:space="preserve" text-anchor="start" id="svg_18" y="453.91228" x="31.56102" stroke-width="0" fill="#cccccc">CULTURATECH</text>-->
+  </g>
+ </g>
+
+</svg>
+ </g>
+</svg>
