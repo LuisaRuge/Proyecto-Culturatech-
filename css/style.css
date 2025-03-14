@@ -130,6 +130,7 @@ p{
     font-size: 18px; /* Tamaño del título */
     display: flex;
     align-items: center;
+    border-radius: 10px;
     gap: 15px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); /* Sombra sutil */
     
@@ -183,6 +184,7 @@ p{
     box-shadow: 0px 5px 0px #feea12;
     flex: 1;
     max-width:40%;
+    justify-content: center;
     text-align: center;
 }
 .workshop-card h5 {
@@ -190,10 +192,112 @@ p{
 }
 .workshop-card p {
     font-size: 1rem;
+    justify-content: center;
+    text-align: center;   
 }
+
 .workshop-card .btn {
     font-size: 1rem;
     padding: 8px 15px;
+}
+
+/*Inicio sección Herramientas */
+.herramientas{
+    /*height:auto;*/
+    width: 100%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00F3B9;
+    font-weight: normal;
+    padding: 20px;
+    margin:10px 10px 50px 1px;
+    border-radius: 10px;
+    /*gap: 5px; */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);  
+}
+
+
+.herramientas p {
+    font-family: arial; /* Texto normal para el párrafo */
+    font-size: 15px; /* Tamaño del párrafo */
+    font-size: 18px; 
+    margin: 10;
+}
+
+.tec {
+    justify-content: center;
+    margin: 20px 10px 0px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-body-herramientas {
+    border-radius: 5%;
+    min-height: 80px;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    border: 3px solid #72EF6E;
+    overflow: visible;
+    box-shadow: 0px 4px 0px #feea12; 
+}
+
+.card-body-herramientas > img {
+    margin-top: 10px;
+    padding: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.img-fluid {
+    margin:auto;
+    width: 50%;
+}
+
+.card-body-herramientas > a {
+    padding: 6px;
+    transition:transform 0,3s ease;
+    background-origin:border-box ;
+    background-clip: content-box, border-box;
+    
+}
+
+.card-content-h {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 20px;
+    padding: 2px;
+    margin: 7px 0px 6px 5px;
+}
+
+.floating-btn-h {
+    position: fixed;  /* Fija el botón */
+    background-color: #00F3B9;  /* Color de fondo (blanco) */
+    top: 38%;     /* Lo posiciona 20px desde el fondo de la pantalla */
+    right: 30px;      /* Lo posiciona 20px desde la derecha de la pantalla */
+    /*color: white;     /* Color del texto */
+    border-radius: 50%; /* Hace que el botón sea redondo */
+    border: 4px solid  #00F3B9;
+    width: 135px;       /* Ancho del botón */
+    height: 135px;    /* Alto del botón */
+    display: flex;
+    box-shadow: 0px 4px 6px rgba(230, 226, 20, 0.8); /* Sombra */
+    z-index: 1000;     /* Asegura que el botón esté por encima de otros elementos */
+    transition: background-color 0.8s ease;  /* Transición para el cambio de color */
+    background-image: url('../img/robot1.png');
+    background-size: cover;
+}
+
+
+.floating-btn-h:hover {
+    background-color: #feea12;  /* Cambio de color cuando se pasa el ratón */
+    background-position: bottom;
+    width: 120px;       /* Ancho del botón */
+    height: 120px;
+    transform: translateY(-75px);
 }
 
 /*general footer*/
