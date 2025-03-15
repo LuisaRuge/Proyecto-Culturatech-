@@ -68,9 +68,7 @@ h1{
     align-items: center;
     height: auto;
     margin: auto;
-    padding: 100px;
-    
-    
+    padding: 100px;   
 }
 
 /*Estilo caja sección Somos Cultura Tecnológica*/
@@ -83,7 +81,6 @@ h1{
     font-size: 18px;
     text-align: center;
     font-family: Arial, sans-serif;
-
 }
 
 /*Inicio sección nosotras*/
@@ -98,8 +95,7 @@ h1{
     background-color: rgba(127, 255, 212, 0.253);
     width: 50vh;
     height: 40vh; 
-    margin: 8%;
-    
+    margin: 8%;    
 }
 
 p{
@@ -118,7 +114,6 @@ p{
     position: absolute;
     left: 60%;
     top: 75%; 
-
 }
 
 /*Inicio sección Talleres */
@@ -132,16 +127,13 @@ p{
     align-items: center;
     border-radius: 10px;
     gap: 15px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); /* Sombra sutil */
-    
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); /* Sombra sutil */   
 }
 
 .talleres-section p {
     font-family: arial; /* Texto normal para el párrafo */
     font-size: 15px; /* Tamaño del párrafo */
-    margin: 0; /* Elimina margen extra */
-
-    
+    margin: 0; /* Elimina margen extra */   
 }
 
 .section.container{
@@ -217,7 +209,6 @@ p{
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);  
 }
 
-
 .herramientas p {
     font-family: arial; /* Texto normal para el párrafo */
     font-size: 15px; /* Tamaño del párrafo */
@@ -250,7 +241,6 @@ p{
     height: 50px;
 }
 
-
 .img-fluid {
     margin:auto;
     width: 50%;
@@ -260,8 +250,7 @@ p{
     padding: 6px;
     transition:transform 0,3s ease;
     background-origin:border-box ;
-    background-clip: content-box, border-box;
-    
+    background-clip: content-box, border-box;    
 }
 
 .card-content-h {
@@ -354,6 +343,81 @@ p{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    gap: 8px;
-    
+    gap: 8px;  
+}
+
+/* Media Queries */
+
+/* Pantallas pequeñas (móviles) */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo img {
+        margin-right: 0;
+    }
+
+    .navegation ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container-card {
+        width: 90vw;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .image-box {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .workshop-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .workshop-card {
+        max-width: 90%;
+    }
+
+    .herramientas {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .card-content-h {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Pantallas medianas (tabletas) */
+@media screen and (max-width: 1024px) {
+    .workshop-container {
+        gap: 40px;
+    }
+
+    .workshop-container img {
+        width: 40%;
+    }
+
+    .card-content-h {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .workshop-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .workshop-card {
+        max-width: 90%;
+    }
+
 }
