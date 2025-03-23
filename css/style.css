@@ -18,7 +18,7 @@ a{
     font-style: normal;
 
 }
-
+ /*Estilo de header / Header style */
 header{
     display: flex;  
     min-height: 70px;
@@ -28,7 +28,7 @@ header{
     padding: 10px;
 }
 
-/*Alineación y tamaño logotipo en el header*/
+/*Alineación y tamaño logotipo en el header / Logo align and size  in the header */
 .logo img{
     display: flex; 
     align-items: center;
@@ -36,7 +36,7 @@ header{
     margin-right: 40px;
 }
 
-/*Estilo del menú*/
+/*Estilo del menú / menu style */
 .navegation ul{
     list-style-type: none;
     display: flex;
@@ -44,19 +44,19 @@ header{
     color: white;
 }
 
-/*Efecto pasar mouse por el menú*/
+/*Efecto hover pasar mouse por el menú / hover effect when moving the mouse over the menu*/
 .navegation a:hover{
     color: #FEEA12;
 }
 
-/*Estilo fondo de la cabecera*/
+/*Estilo fondo de la cabecera / Header background styel */
 .container-degrade{
     display: flex;
     background: linear-gradient(to right, #F16F7B, #8B4047);
     margin: 0px;   
 }
 
-/*Estilo caja texto negro en la cabecera*/
+/*Estilo caja texto negro en la cabecera / black text box style in header*/
 h1{
     display: flex;
     background-color: black;
@@ -71,7 +71,7 @@ h1{
     padding: 100px;   
 }
 
-/*Estilo caja sección Somos Cultura Tecnológica*/
+/*Estilo caja sección Somos Cultura Tecnológica / Box style section Somos Cultura Tecnológica */
 .text{
     display: flex;
     color:black;
@@ -83,7 +83,7 @@ h1{
     font-family: Arial, sans-serif;
 }
 
-/*Inicio sección nosotras*/
+/*Inicio sección nosotras / Home section about us */
 .container-card{
     display: grid; 
     font-size: 20px;
@@ -104,7 +104,7 @@ p{
     font-family: Arial, sans-serif;
 }
 
-    /* imagen de nosotras*/
+    /* imagen de nosotras 7 Image of us*/
     .image-box{
     width: 350px;
     height: 400px;
@@ -116,84 +116,85 @@ p{
     top: 75%; 
 }
 
-/*Inicio sección Talleres */
+/*Inicio sección Talleres  / Workshop section*/
 
 .talleres-section {
-    background-color: #FEEA12; /* Color amarillo */
-    padding: 20px; /* Espaciado interno */
-    font-weight: normal; /* Texto en negrita */
-    font-size: 18px; /* Tamaño del título */
+    background-color: #FEEA12; /* Color amarillo de fondo / Background yellow color */
+    padding: 20px; /* Espaciado interno / Internal spacing */
+    font-weight: normal; /* Texto en negrita / Bold text */
+    font-size: 18px; /* Tamaño del título / size title */
     display: flex;
     align-items: center;
     border-radius: 10px;
     gap: 15px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); /* Sombra sutil */   
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); /* Sombra sutil / subtle shadow */   
 }
 
 .talleres-section p {
-    font-family: arial; /* Texto normal para el párrafo */
-    font-size: 15px; /* Tamaño del párrafo */
-    margin: 0; /* Elimina margen extra */   
+    font-family: arial; /* Texto normal para el párrafo / normal text for the paragraph */
+    font-size: 15px; /* Tamaño del párrafo / paragrapha size */
+    margin: 0; /* Elimina margen extra / Eliminate extra margin */   
 }
 
 .section.container{
-    height: 150px;
-    display:inline-flex;
-    justify-content:space-between;
-    align-items: center;
-    background-color: #00F3B9;
-    padding: 5px;
-    margin: 5px;
+    height: 150px; /* Establece la altura del contenedor / Establish the container height */
+    display:inline-flex; /* Usa el modelo de caja flexible en línea / Use the model flexible box in line */
+    justify-content:space-between; /* Distribuye los elementos con espacio entre ellos / Distribute the elements with space between them*/
+    align-items: center; /* Alinea los elementos verticalmente al centro / Aligns the elements vertically to the center */
+    background-color: #00F3B9; /* Color de fondo del contenedor / background container color */
+    padding: 5px; /* Agregar un espacio interno de 5 pixeles en todos los lados / Add 5 pixels of internal space on all side */
+    margin: 5px; /* Agregar un espacio externo de 5 píxeles alrededor del contenedor / Add external space of 5 pixels around container */
 }
 
-.container-fluid {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2%;
+.container-fluid { 
+    width: 100%; /* Ocupar el 100% del ancho disponible / Occupy 100% of the avalable width */
+    display: flex; /* Aplica el modelo de caja flexible / Apply felx container model */
+    justify-content: center; /* Centra los elementos horizontalmente / Center elements horizontally */ 
+    align-items: center; /* Centra los elementos verticalmente / Center elementos vertically */
+    padding: 2%; /* Agregar un espacio interno proporcional al tamaño del contenedor / Add internal space porporcional to the size container*/
     
 }
 .workshop-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; /* Modelo de caja flexible / Flexible box model */
+    align-items: center; /* Centra los elementos verticalmente / Center elementos vertically */
+    justify-content: center; /* Centra los elementos horizontalmente / Center elements horizontally */ 
     gap: 0;
-    width: 100%;
-    padding: 3% 3%;
+    width: 100%; /* Ocupar el 100% del ancho disponible / Occupy 100% of the avalable width */
+    padding: 3% 3%; /* Agregar un espacio interno de 3% en todos los lados del contenedor / Add internal space of 3% in all side of container*/
 }
 .workshop-container img {
-    width: 30%;
-    height: auto;
-    border-radius: 10px;
+    width: 30%; /* La imagen ocupa el 100% del ancho disponible / the image occupy 100% of the avalable width */
+    height: auto; /* Mantiene la proporcion de la imagen / keeps the image's porportions*/ 
+    border-radius: 10px; /* Esquinas redondeadas de 10px / 10px rounded corners */ 
 }
 .workshop-card {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    border: 3px solid #72EF6E;
-    overflow: visible;
-    box-shadow: 0px 5px 0px #feea12;
-    flex: 1;
-    max-width:40%;
-    justify-content: center;
-    text-align: center;
+    background: white; /*Fondo blanco / Background white */
+    padding: 20px; /* Espacio interno de 20px / 20px Internal space */
+    border-radius: 10px; /* Esquinas redondeadas de 10px / 10px rounded corners */ 
+    border: 3px solid #72EF6E; /* Borde solido de 3px / 3px solid border */ 
+    overflow: visible; /* Permite que elementos dentro del div sobresalgan si es necesario / Allows elements within the div to protrude if necessary */ 
+    box-shadow: 0px 5px 0px #feea12; /*Sombra en la parte inferir / shadown at the bottom */
+    max-width:40%; /* Ancho máximo del 40% del contenedor / 40% max width */
+    justify-content: center; /* Centra los elementos horizontalmente / Center elements horizontally */ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; /* Centra el texto dentro del card / Center the text inside card*/
 }
 .workshop-card h5 {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /*Establece el tamaño de fuente / Sets the font size */
 }
 .workshop-card p {
-    font-size: 1rem;
-    justify-content: center;
-    text-align: center;   
+    font-size: 1rem; /*El tamaño del texto en los parrafs será de 1 rem */
+    text-align: center; /* Centra el texto dentro del card / Center the text inside card */
 }
 
 .workshop-card .btn {
-    font-size: 1rem;
-    padding: 8px 15px;
+    font-size: 1rem; /* El tamaño del texto dentro del botón será 16px / The font size inside the button*/
+    padding: 8px 15px; /* Agrega espacio interno 8px Inferior y superior, 15px derecho e izquierdo / Add space 8px top botton and top, 15px left and right */
 }
 
-/*Inicio sección Herramientas */
+/*Inicio sección Herramientas / Star Tools section */
 .herramientas{
     /*height:auto;*/
     width: 100%; 
@@ -210,8 +211,8 @@ p{
 }
 
 .herramientas p {
-    font-family: arial; /* Texto normal para el párrafo */
-    font-size: 15px; /* Tamaño del párrafo */
+    font-family: arial; /* Texto normal para el párrafo / Normal text to the paragraph*/
+    font-size: 15px; /* Tamaño del párrafo / size paragraph */
     font-size: 18px; 
     margin: 10;
 }
@@ -263,8 +264,8 @@ p{
 }
 
 .floating-btn-h {
-    position: fixed;  /* Fija el botón */
-    background-color: #00F3B9;  /* Color de fondo (blanco) */
+    position: fixed;  /* Fija el botón / set the button*/
+    background-color: #00F3B9;  /* Color de fondo (blanco) / white Blackground color*/
     top: 38%;     /* Lo posiciona 20px desde el fondo de la pantalla */
     right: 30px;      /* Lo posiciona 20px desde la derecha de la pantalla */
     /*color: white;     /* Color del texto */
@@ -297,7 +298,7 @@ p{
     margin-top: 30px;
 }
 
-/*formulario footer*/
+/*formulario footer / form of footer*/
 .parent-form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -309,7 +310,7 @@ p{
     grid-row: span 3 / span 3;
 }
 
-/*iconos redes zoom*/
+/*iconos redes zoom / zoom social media icons */
 .redes a {
     transition: 0.5s ease-in-out 0s;
   }
@@ -319,7 +320,7 @@ p{
     
   }
 
-/*Contacto direccion y telefono*/
+/*Contacto direccion y telefono / address and phone contact */
 .contacto {
     grid-column-start: 2;
     width: 80%;
@@ -332,13 +333,13 @@ p{
     grid-row-start: 2;
 }
 
-/*iconos redes*/
+/*iconos redes / social media icons*/
 .redes {
     grid-column-start: 2;
     grid-row-start: 3;
 }
 
-/*copyright y diseñado por*/
+/*copyright y diseñado por / copyright and design*/
 .copyright {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -348,7 +349,7 @@ p{
 
 /* Media Queries */
 
-/* Pantallas pequeñas (móviles) */
+/* Pantallas pequeñas (móviles) / small screens (phones) */
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
@@ -397,7 +398,7 @@ p{
     }
 }
 
-/* Pantallas medianas (tabletas) */
+/* Pantallas medianas (tabletas) 7 medium screem (Tablets) */
 @media screen and (max-width: 1024px) {
     .workshop-container {
         gap: 40px;
