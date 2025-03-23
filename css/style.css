@@ -158,9 +158,9 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 0;
     width: 100%;
-    padding: 5% 5%;
+    padding: 3% 3%;
 }
 .workshop-container img {
     width: 30%;
